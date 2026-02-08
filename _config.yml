@@ -220,6 +220,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-socials
   - jekyll-tabs
@@ -276,7 +277,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Piot]
+  last_name: [Piot, Piot-Pérez-Abadín]
   first_name: [Paloma]
 
   style: apa
