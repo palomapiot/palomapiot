@@ -47,9 +47,9 @@ cv:
         end_date: 2018
 
     Experience:
-      - company: Information Retrieval Lab (IRLab), CITIC Research Centre
+      - company: IRlab - Universidade da Coruña
         position: PhD Researcher & Research Assistant
-        location: Universidade da Coruña, Spain
+        location: Spain
         start_date: 2023
         end_date: Present
         highlights:
@@ -77,7 +77,7 @@ cv:
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
+        summary: "Fluent (C1)"
 
     Projects:
       - name: HYBRIDS
@@ -91,4 +91,4 @@ cv:
         start_date: 2023
         end_date: Present
         
-    References: []
+#    References: []
