@@ -4,4 +4,4 @@ You can follow my work and updates on my [GitHub](https://github.com/palomapiot)
 
 For more about my research publications, see the [Publications page](/publications/).  
 
-Feel free to reach out via email at <paloma@example.com>.
+Feel free to reach out via email at <paloma.piot@udc.es>.

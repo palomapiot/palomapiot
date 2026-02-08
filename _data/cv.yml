@@ -57,7 +57,7 @@ cv:
 
     Awards:
       - title: Best Open Source Project Award
-        authors: "Paloma Piot"
+        authors: ["Paloma Piot"]
         date: 2021-10
         awarder: Universidad da Coruña
         summary: Winner of the award for the best open-source university project in 2021.
