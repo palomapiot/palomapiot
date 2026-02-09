@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>University of A Coruña</p>
-    <p>Spain</p>
+    <p>IRLab, University of A Coruña</p>
+    <p>A Coruña, Spain</p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
