@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-02-18'
 papers:
   gY7dBboAAAAJ:9yKSN-GCB0IC:
     citations: 3
@@ -26,8 +26,8 @@ papers:
     title: 'WATCHED: A Web AI Agent Tool for Combating Hate speech by Expanding Data'
     year: '2025'
   gY7dBboAAAAJ:Y0pCki6q_DkC:
-    citations: 12
-    title: Towards Efficient and Explainable Hate Speech Detection via Model Distillation
+    citations: 11
+    title: Towards efficient and explainable hate speech detection via model distillation
     year: '2025'
   gY7dBboAAAAJ:eQOLeE2rZwMC:
     citations: 1
@@ -38,7 +38,7 @@ papers:
     title: 'PartisanLens: A Multilingual Dataset of Hyperpartisan and Conspiratorial Immigration Narratives in European Media'
     year: '2026'
   gY7dBboAAAAJ:qjMakFHDy7sC:
-    citations: 35
+    citations: 37
     title: 'MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection'
     year: '2024'
   gY7dBboAAAAJ:u-x6o8ySG0sC:
