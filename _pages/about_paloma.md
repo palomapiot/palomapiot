@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Researcher in Natural Language Processing
+#subtitle: PhD Researcher in Natural Language Processing
 
 profile:
   align: right

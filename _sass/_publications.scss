@@ -38,18 +38,9 @@
 
     li {
       margin-bottom: 1rem;
-      width: 100%;       // take full width of parent
-      display: flex;     // allow thumbnails + text to sit side by side
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 1rem;         // space between thumbnail and text
 
       .preview {
         display: inline-block;
-        max-width: 200px;  // adjust to desired size
-        width: 100%;       // allow shrinking on small screens
-        height: auto;
-        flex-shrink: 0;    // don't shrink in flex layout
       }
 
       .abbr {
