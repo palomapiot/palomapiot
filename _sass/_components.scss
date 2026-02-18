@@ -259,3 +259,8 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+.text-pink {
+  color: var(--global-theme-color); // same color as links
+  font-weight: 500;             
+}
