@@ -3,22 +3,48 @@
 {% assign name = repo_url[1] %}
 {% assign repo = site.github.public_repositories | where: "name", name | first %}
 
-<div class="card h-100 shadow-sm">
-  <div class="card-body">
-    <h5 class="card-title mb-1">
-      <a href="https://github.com/{{ include.repository }}">{{ name }}</a>
+<div class="card repo-card h-100 border-0">
+  <div class="card-body d-flex flex-column">
+
+    <!-- Title -->
+    <h5 class="card-title mb-2">
+      <a href="https://github.com/{{ include.repository }}" 
+         class="repo-link text-decoration-none">
+        <i class="fab fa-github me-2"></i>{{ name }}
+      </a>
     </h5>
 
+    <!-- Description -->
     {% if repo.description %}
-      <p class="card-text small text-muted">
+      <p class="card-text small text-muted flex-grow-1">
         {{ repo.description }}
       </p>
     {% endif %}
 
-    <p class="card-text small mb-0 text-muted">
-      {{ owner }}
-      {% if repo.language %} · {{ repo.language }}{% endif %}
-      {% if repo.stargazers_count %} · ★ {{ repo.stargazers_count }}{% endif %}
-    </p>
+    <!-- Metadata -->
+    <div class="repo-meta small text-muted mt-3">
+
+      <!-- Owner -->
+      <span class="me-2">
+        {{ owner }}
+      </span>
+
+      <!-- Language -->
+      {% if repo.language %}
+        <span class="me-2">
+          <span class="language-dot"></span>
+          {{ repo.language }}
+        </span>
+      {% endif %}
+
+      <!-- Stars -->
+      {% if repo.stargazers_count %}
+        <span>
+          ★ {{ repo.stargazers_count }}
+        </span>
+      {% endif %}
+
+    </div>
+
   </div>
 </div>

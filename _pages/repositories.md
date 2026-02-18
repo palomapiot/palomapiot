@@ -9,24 +9,29 @@ nav_order: 4
 
 {% if site.data.repositories.github_users %}
 
-## Code & Repositories
+## 🧠 Research Code & Open-Source Work
 
 <div class="repo-section mb-5">
 
-  <p class="text-muted">
-    Open-source implementations and experimental code accompanying my research.
+  <p class="lead">
+    Reproducible research, datasets, benchmarks, and experimental tooling 
+    for hate speech detection.
   </p>
+
 
   <div class="row">
     {% for user in site.data.repositories.github_users %}
       <div class="col-md-6 mb-3">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100 shadow-sm border-0 repo-card">
           <div class="card-body">
-            <h5 class="card-title mb-1">
-              <a href="https://github.com/{{ user }}">{{ user }}</a>
+            <h5 class="card-title mb-2">
+              <i class="fab fa-github me-2"></i>
+              <a href="https://github.com/{{ user }}" class="stretched-link text-decoration-none">
+                {{ user }}
+              </a>
             </h5>
             <p class="card-text text-muted small mb-0">
-              GitHub profile
+              Open-source NLP research and experiments.
             </p>
           </div>
         </div>
